@@ -34,6 +34,10 @@ Status: local build ready for deploy.
 - Exactly one visible Google Maps navigation CTA in the map block.
 - Iframe uses business name + full address query.
 
-8. Responsive visual QA — pending screenshot during deploy QA.
+8. Responsive visual QA — LIMITED PASS
+- Browser/screenshot tool unavailable in this subagent environment; static responsive CSS and local HTML/assets inspected. No automated screenshot was captured.
 
-9. Final live QA — pending after GitHub Pages deploy.
+9. Final live QA — PASS
+- Live URL: `https://deanooooooooo.github.io/vasil-atanasov-site/`
+- HTTP 200 verified after Pages build.
+- Live HTML contains business name, testimonial name `Konstansa`, HairSalon schema, canonical, OG image, and map iframe query.
