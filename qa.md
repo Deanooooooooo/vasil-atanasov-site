@@ -41,3 +41,9 @@ Status: local build ready for deploy.
 - Live URL: `https://deanooooooooo.github.io/vasil-atanasov-site/`
 - HTTP 200 verified after Pages build.
 - Live HTML contains business name, testimonial name `Konstansa`, HairSalon schema, canonical, OG image, and map iframe query.
+
+## 2026-05-30 image-quality correction
+- Replaced weak street/back-view hero with strongest vetted candidate.
+- Removed weak action/interior filler images from visible use.
+- Final visible image set reduced to the strongest hero only; no duplicate visible image srcs.
+- Map iframe changed to eager load for better visual QA.
