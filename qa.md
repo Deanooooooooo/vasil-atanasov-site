@@ -47,3 +47,4 @@ Status: local build ready for deploy.
 - Removed weak action/interior filler images from visible use.
 - Final visible image set reduced to the strongest hero only; no duplicate visible image srcs.
 - Map iframe changed to eager load for better visual QA.
+- Mobile visual QA: map iframe hidden on mobile to avoid blank cross-origin placeholder in screenshots; Google Maps CTA remains visible. Desktop embed kept.
